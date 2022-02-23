@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  overflow: hidden;
+  background-color: #5F00BA;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;  
+  width: 100%;
+  
+}
+
+#nav a{
+  color: #FFFFFF;
+  margin-left: 20px;
+  text-decoration: none;
+  }
+
+#nav a:hover {
+  text-decoration: underline 2px #FFFFFF;
+  transition: text-decoration-color 1000ms;
+ 
+}
+
+header {
+  background-image: url('https://i.ytimg.com/vi/L0Kmh2RGh1w/maxresdefault.jpg');
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:100vh;
+}
+
+header * {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #A09BE7;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+#about{
+ background-image: url('https://mitologia.hi7.co/mitologia/mitologia-57ac3648bc9b7.png');
+}
+
+#projects {
+  text-align: center;
+  margin-top: 20px;
+     
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-container a {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.projects-container p{
+  margin: 10px;
+}
+
+
+.project-tile:hover {
+  transform: scale(1.1);
+  
+}
+
+
+section {
+  padding: 15px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 3px;
+}
+
+section p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+
+#social {
+  text-align: center;
+  
+}
+
+
+#social h2 {
+  padding: 15px;
+}
+
+#social p {
+  padding-bottom: 30px;
+}
+
+.social-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  
+}
+
+
+.social-ul a{
+   color: #000;
+   font-size: 50px;
+   margin-right: 20px;
+   
+}
+
+.bg-social {
+  background-color: #F4EBBE;
+  
+}
+
+footer {
+  background-color: #5F00BA;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+footer .fa-heart {
+  color: red;
+}
+
+@media  (max-width: 450px){
+  section {
+    padding: 20px;
+  }
+}
