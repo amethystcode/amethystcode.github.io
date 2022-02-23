@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+	<head>
+    <h1 id="title"> </h1>
+	</head>
+	<body >	     
+     
+       <form class="container" >
+        
+        <label class="description">Random Form </label><br>
+       
+        <div class="name">
+        <label for id="name">Name </label><br>
+        <input type="text" id="name-label"  name="name" placeholder="What's your name?"><br>
+        </div>
+         
+        <div class="email">
+        <label for id="email"  >Email </label><br>
+        <input for type="text" 
+               id="email-label" 
+               name="email"
+                               placeholder="name@exemple.com"
+               pattern="email">
+               <br>
+           </div>
+                   
+          <div class="number">
+          <label for id="number" >Number<label><br>
+          <input type="number" id="number" name="number-label" min="10" max="100" placeholder="10-100"></br>
+           </div> 
+          
+          <div class="state">
+          <label for="state"  > Where you live?</label> 
+          <select name="state" id="dropdown">
+             <option value="ac">AC</option>
+             <option value="al">AL</option>
+             <option value="ap">AP</option>
+             <option value="am">AM</option>
+             <option value="ba">BA</option>
+             <option value="ce">CE</option>
+             <option value="df">DF</option>
+             <option value="es">ES</option>
+             <option value="go">GO</option>
+             <option value="ma">MA</option>
+             <option value="mt">MT</option>
+             <option value="ms">MS</option>
+             <option value="mg">MG</option>
+             <option value="pa">PA</option>
+             <option value="ac">AC</option>
+             <option value="pb">PB</option>
+             <option value="pr">PR</option>
+             <option value="pe">PE</option>
+             <option value="pi">PI</option>
+             <option value="rj">RJ</option>
+             <option value="rn">RN</option>
+             <option value="rs">RS</option>
+             <option value="ro">RO</option>
+             <option value="rr">RR</option>
+             <option value="sc">SC</option>
+             <option value="sp">SP</option>
+             <option value="se">SE</option>
+             <option value="to">TO</option>
+          </select><br>
+              </div>         
+           
+            <div class="radio">
+            <label for="radio" id="radio" >Are you single?</lable><br>
+            <label for="radio">YES</label>
+            <input type="radio" id="radio" name="status" value="YES">
+            <label for="radio">NO</label>
+            <input type="radio" id="radio" name="status" value="NO"><br>
+            </div>
+            
+            <div class="checkbox">
+            <label for="checkbox" class="form-control">Starter Pokémons you like the most?</label><br>
+          <input type="checkbox" 
+                 id="checkbox" 
+                 name="charmander" 
+                 value="charmander">
+                 
+          <label for="charmander">Charmander</label>
+          <input type="checkbox" 
+                 id="checkbox" 
+                 name="squirtler" 
+                 value="squirtle">
+                 
+          <label for="squirtle">Squirtle</label>
+          <input type="checkbox" 
+                 id="checkbox" 
+                 name="bulbasaur" 
+                 value="bulbasaur">
+                 
+          <label for="squirtle">Bulbasaur</label><br>
+          </div>
+          
+          <div class="comment">
+          <p>Would you like to comment?  </p>
+          <textarea name="comment" form="survey-form"> </textarea><br>
+          </div>
+            
+          <button type="submit" form="survey-form" value="submit">Submit</button>
+       
+      </form>      
+   
+   <section>
+	</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

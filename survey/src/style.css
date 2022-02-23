@@ -1,0 +1,37 @@
+#survey-form {
+ text-align: center;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+}
+
+.container {
+  width: 30%;
+  background: #F0FFFF;
+  padding: 25px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+
+ .description {
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+
+form {
+  text-align: left;
+ }
+
+body div {
+  margin-bottom: 10px;
+  }
+
