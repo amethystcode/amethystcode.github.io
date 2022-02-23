@@ -1,0 +1,56 @@
+#main {
+  background-color:#fff3cd;
+}
+
+h2 {
+  color: #062c33;
+  text-align: center;
+}
+
+#title {
+  font-size: 80px;
+  color: #062c33;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+#img-caption{
+  font-size: 30px;
+  text-align: center;
+ 
+}
+
+.timelane {
+   
+    display: block;
+    Text-align: left;
+    color: #062c33;
+    list-style-type: none;
+            
+  }
+
+ul li {
+  color: black;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ 
+
+#tribute-info {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  
+}
